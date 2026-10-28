@@ -21,8 +21,8 @@ def get_random_filler_name(world: ArchoggleWorld) -> str:
     print("Temp")
     
 def create_item_with_correct_classification(world: ArchoggleWorld, name: str) -> ArchoggleItem:
-    classifiction = DEFAUITEM_NAME_CLASSIFICATION[name]
-    return ArchoggleLT_Item(nme, classifiction, ITEM_NAME_TO_ID[name], world.player)
+    classifiction = DEFAULT_ITEM_NAME_CLASSIFICATION[name]
+    return ArchoggleItem(name, classifiction, ITEM_NAME_TO_ID[name], world.player)
 
 def create_all_items(world: ArchoggleWorld) -> None:
     itempool: list[Item] = []
