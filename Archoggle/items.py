@@ -7,7 +7,7 @@ from BaseClasses import Item, ItemClassification
 if TYPE_CHECKING:
     from .world import ArchoggleWorld
     
-    
+
     
 ITEM_NAME_TO_ID = {
     "Progressive Block": 1000,
